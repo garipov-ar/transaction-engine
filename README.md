@@ -128,24 +128,5 @@ Perfect for backend/SRE roles requiring **high-load, fault-tolerant systems**.
 
 MIT License – see [LICENSE](LICENSE) for details.
 
----
 
-### ✅ Before Pushing
-
-1. Replace `your-username` in the badge URL with your GitHub username:
-
-```md
-![License](https://img.shields.io/github/license/aidar/transaction-engine)
-```
-
-2. Save the file as `transaction-engine/README.md`
-3. Run:
-
-```bash
-git add README.md
-git commit -m "docs: add professional English README"
-git push origin main
-```
-
-💡 *Your repository will now look like a polished, production-ready open-source project. Great work, Айдар!*
 
