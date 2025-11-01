@@ -24,8 +24,7 @@ public class TransactionConsumer {
             transactionService.processTransactionMessage(messageJson);
         } catch (Exception e) {
             log.error("Failed to process message: {}", messageJson, e);
-            // Здесь можно отправить в DLQ — добавим позже
-            throw e; // повторная попытка
+            throw e;
         }
     }
 }
